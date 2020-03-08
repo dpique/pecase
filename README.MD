@@ -1,5 +1,5 @@
 # pecase
-Winners of Presidential Early Career Awards for Scientists and Engineers (PECASE)
+A Dataframe Containing Winners of Presidential Early Career Awards for Scientists and Engineers (PECASE) from 1996-2017.
 
 I reformated the [pecase data](https://en.wikipedia.org/wiki/Presidential_Early_Career_Award_for_Scientists_and_Engineers) from wikipedia into an R dataframe. A description of how this was done is available in the `data-raw` directory.
 
@@ -15,7 +15,7 @@ Here are a few thoughts on how this data could be used:
 
 `pecase` is a dataframe with 1708 rows (one for each awardee) and 4 variables, described below:
 
-* `year`: the year the award was granted
+* `year`: the year the award was granted. Note that the awards for 2015-17 were announced together in 2019 and are all labeled as 2015 in the dataset, as there was no distinction made between the awardee years for these 3 years.
 
 * `dept`: the governmental department granting the award
 
