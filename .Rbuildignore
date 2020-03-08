@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^doc$
+^Meta$
+^cran-comments\.md$
+pecase.Rproj
+^.Rhistory
+^LICENSE\.md$

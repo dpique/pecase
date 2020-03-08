@@ -1,0 +1,22 @@
+Package: pecase
+Type: Package
+Title: Winners of Presidential Early Career Awards for Scientists and Engineers (PECASE) 
+Version: 0.1.0
+Author: Daniel Piqué
+Maintainer: Daniel Piqué <daniel@datamd.info>
+Description: 
+    This package provides a dataset consisting of all winners of the
+    PECASE award from 1996-2017. PECASE is awarded through the US government
+    to promising early-stage scientists and engineers, who are nominated
+    by participating federal agencies (e.g. Dept of Health and Human
+    Services). Ideas about how to use this dataset including combining
+    with NIH reporter data to assess the success of PECASE award recipients.
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
