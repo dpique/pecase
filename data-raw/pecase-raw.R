@@ -65,7 +65,7 @@ w.2015.3 <- w.2015.2 %>%
   mutate(year = "2015") %>%
   select(year, dept, name, instit)
 
-pecase <- bind_rows(w.2015.3, res_df2)
+pecase <- bind_rows(w.2015.3, res_df2) %>% mutate(year=as.numeric(year))
 #this is the final df
 
 
